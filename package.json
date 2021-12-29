@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
+    "dev": "parcel index.html --port 1216",
     "build": "parcel build index.html"
   },
   "keywords": [],
@@ -14,7 +14,7 @@
     "@babel/core": "^7.16.5",
     "@babel/plugin-transform-runtime": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^9.8.8",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-static-files-copy": "^2.6.0",
     "postcss": "^8.4.5",
